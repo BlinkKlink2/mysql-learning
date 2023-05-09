@@ -1,0 +1,31 @@
+Comparision & Logical Operators
+--------------------------------
+
+>not equal (!=)
+/Note#/ Technically '=' and '!=' are comparision operators not logical operators. 
+
+>not like
+
+> greater than (>)
+/Note#/ select 80 > 40; it will return 1 (true). 
+/Note#/ select 80 > 100; it will return 0 (false).
+/Note#/ select 1 > NULL; it will return NULL.
+
+> greater than equal to (>=) 
+
+> less than or equal to (<=)
+
+> Logical AND
+ex: select title, author_lname, released_year from books where released_year > 2010 and
+    author_lname='Eggers';
+
+> Logical OR
+
+> Logical BETWEEN
+select title from books between 2004 and 2005; //both inclusive
+
+> Logical NOT BETWEEN 
+
+
+
+
